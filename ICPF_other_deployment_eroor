@@ -1,0 +1,40 @@
+Deploy started at 2021-06-04T18:08:34.252Z
+
+2021-06-04T18:08:34.574Z: Deploy started
+2021-06-04T18:08:36.532Z: Docker image: 'node:slim'
+2021-06-04T18:08:36.532Z: Build command: 'npm install && npm run build'
+2021-06-04T18:08:36.532Z: Triggering build execution...
+2021-06-04T18:09:52.338Z: added 1548 packages, and audited 1681 packages in 41s
+2021-06-04T18:09:52.421Z: 126 vulnerabilities (19 low, 89 moderate, 14 high, 4 critical)
+2021-06-04T18:09:52.421Z: To address issues that do not require attention, run:
+2021-06-04T18:09:52.421Z: npm audit fix
+2021-06-04T18:09:52.421Z: To address all issues possible (including breaking changes), run:
+2021-06-04T18:09:52.421Z: npm audit fix --force
+2021-06-04T18:09:52.421Z: Some issues need review, and may require choosing
+2021-06-04T18:09:52.421Z: a different dependency.
+2021-06-04T18:09:52.421Z: Run `npm audit` for details.
+2021-06-04T18:09:52.422Z: npm notice
+2021-06-04T18:09:52.422Z: npm notice New minor version of npm available! 7.15.1 -> 7.16.0
+2021-06-04T18:09:52.422Z: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.16.0>
+2021-06-04T18:09:52.422Z: npm notice Run `npm install -g npm@7.16.0` to update!
+2021-06-04T18:09:52.422Z: npm notice
+2021-06-04T18:09:52.792Z: > simple-chat-react@0.1.0 build
+2021-06-04T18:09:52.792Z: > react-scripts build
+2021-06-04T18:09:54.199Z: Creating an optimized production build...
+2021-06-04T18:09:55.013Z: =============
+2021-06-04T18:09:55.013Z: WARNING: You are currently running a version of TypeScript which is not officially supported by typescript-estree.
+2021-06-04T18:09:55.013Z: You may find that it works just fine, or you may not.
+2021-06-04T18:09:55.013Z: SUPPORTED TYPESCRIPT VERSIONS: >=3.2.1 <3.5.0
+2021-06-04T18:09:55.013Z: YOUR TYPESCRIPT VERSION: 3.5.3
+2021-06-04T18:09:55.013Z: Please only submit bug reports when using the officially supported version.
+2021-06-04T18:09:55.013Z: =============
+2021-06-04T18:09:55.296Z: Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+2021-06-04T18:10:53.693Z: Failed to compile.
+2021-06-04T18:10:53.695Z: ./src/components/Messages/Messages.tsx
+2021-06-04T18:10:53.695Z: Syntax error: ',' expected (180:115)
+2021-06-04T18:10:53.731Z: npm notice
+2021-06-04T18:10:53.731Z: npm notice New minor version of npm available! 7.15.1 -> 7.16.0
+2021-06-04T18:10:53.731Z: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.16.0>
+2021-06-04T18:10:53.731Z: npm notice Run `npm install -g npm@7.16.0` to update!
+2021-06-04T18:10:53.731Z: npm notice
+2021-06-04T18:11:17.265Z: Error occured during the build.
